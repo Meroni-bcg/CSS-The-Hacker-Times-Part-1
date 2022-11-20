@@ -17,11 +17,11 @@ h2 {
 
 .newspaper-container{
     background-color: white;
-    box-shadow: #ddd;
     width: 700px;
     border-radius: 1%;
     box-shadow: 6px #777;
     padding: 2em;
+
 }
 h5 {
     color: #dd3232;
@@ -33,7 +33,7 @@ nav {
     top: 10px;
     background-color: white;
     
-     
+
 }
 
 h1 {
@@ -52,13 +52,36 @@ h1 {
     
   }
 
- .more-articles {
-    display: inline-flex;
-    padding: 0em 2em 3em
-
+.more-articles {
+    border-top: 5px solid lightgray;
 }
- 
+/*.more-articles #box1 {
+    display: inline-block;
+    text-align: justify;
+    width: 40%;
+    height: 20em;
+}
+    
 
+.more-articles #box2 {
+    display: inline-block;
+    text-align: justify;
+    width: 40%;
+    height: 20em;
+   
+} */
+
+.more-articles {
+    border-top: 1px solid #eee;
+    margin-top: 1.5em;
+    text-align: center;
+    
+  }
+  .more-articles section {
+    display: inline-block;
+    width: 44%;
+    margin: 0, 2em;
+  }
 
 main {
     display: block;
