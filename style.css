@@ -29,6 +29,9 @@ h5 {
 nav {
     color: 4px #777;
     border: 1px solid gray;
+    position: sticky;
+    top: 10px;
+    background-color: white;
     
      
 }
@@ -50,10 +53,10 @@ h1 {
   }
 
  .more-articles {
-    display: inline-block;
-    text-align: justify;
-    margin: 0 auto;
- }
+    display: inline-flex;
+    padding: 0em 2em 3em
+
+}
  
 
 
@@ -68,5 +71,9 @@ main {
     width: 700px;
 }
 
+.additionalinfo {
+    display: inline-block;
+    
+}
 
 
